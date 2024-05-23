@@ -41,7 +41,7 @@
   "flex-layout.col#info-card-list-container": {
     "children": [
       "rich-text#info-card-list-title",
-      "list-context.info-card-list#infocard-list-home"
+      "list-context.info-card-list#infocard-list"
     ],
     "title": "Container da Lista de Info Cards"
   },
@@ -50,7 +50,7 @@
       "text": "Componente teste"
     }
   },
-  "list-context.info-card-list#infocard-list-home": {
+  "list-context.info-card-list#infocard-list": {
     "title": "Lista de Info Cards",
     "children": [
       "slider-layout#slider-infocard"
@@ -58,49 +58,58 @@
     "props": {
       "infoCards": [
         {
-          "subhead": "Nome da categoria",
           "textAlignment": "center",
           "textMode": "rich-text",
           "imageUrl": "https://cdn.pixabay.com/photo/2024/02/26/19/39/monochrome-image-8598798_960_720.jpg",
           "isFullModeStyle": false,
           "textPosition": "center",
-          "callToActionText": "Ir para a categoria"
+          "callToActionText": "Nome da categoria",
+          "callToActionMode": "link"
         },
         {
-          "subhead": "Nome da categoria",
           "textAlignment": "center",
           "textMode": "rich-text",
           "imageUrl": "https://cdn.pixabay.com/photo/2024/02/26/19/39/monochrome-image-8598798_960_720.jpg",
           "isFullModeStyle": false,
           "textPosition": "center",
-          "callToActionText": "Ir para a categoria"
+          "callToActionText": "Nome da categoria",
+          "callToActionMode": "link"
         },
         {
-          "subhead": "Nome da categoria",
           "textAlignment": "center",
           "textMode": "rich-text",
           "imageUrl": "https://cdn.pixabay.com/photo/2024/02/26/19/39/monochrome-image-8598798_960_720.jpg",
           "isFullModeStyle": false,
           "textPosition": "center",
-          "callToActionText": "Ir para a categoria"
+          "callToActionText": "Nome da categoria",
+          "callToActionMode": "link"
         },
         {
-          "subhead": "Nome da categoria",
           "textAlignment": "center",
           "textMode": "rich-text",
           "imageUrl": "https://cdn.pixabay.com/photo/2024/02/26/19/39/monochrome-image-8598798_960_720.jpg",
           "isFullModeStyle": false,
           "textPosition": "center",
-          "callToActionText": "Ir para a categoria"
+          "callToActionText": "Nome da categoria",
+          "callToActionMode": "link"
         },
         {
-          "subhead": "Nome da categoria",
           "textAlignment": "center",
           "textMode": "rich-text",
           "imageUrl": "https://cdn.pixabay.com/photo/2024/02/26/19/39/monochrome-image-8598798_960_720.jpg",
           "isFullModeStyle": false,
           "textPosition": "center",
-          "callToActionText": "Ir para a categoria"
+          "callToActionText": "Nome da categoria",
+          "callToActionMode": "link"
+        },
+        {
+          "textAlignment": "center",
+          "textMode": "rich-text",
+          "imageUrl": "https://cdn.pixabay.com/photo/2024/02/26/19/39/monochrome-image-8598798_960_720.jpg",
+          "isFullModeStyle": false,
+          "textPosition": "center",
+          "callToActionText": "Nome da categoria",
+          "callToActionMode": "link"
         }
       ]
     }
