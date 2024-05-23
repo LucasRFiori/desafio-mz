@@ -1,0 +1,119 @@
+{
+  "flex-layout.row#home-info-slider": {
+    "title": "MZ | Info Slider",
+    "props": {
+      "fullWidth": false,
+      "paddingTop": {
+        "desktop": 5,
+        "tablet": 5,
+        "phone": 0
+      },
+      "paddingBottom": {
+        "desktop": 6,
+        "tablet": 6,
+        "phone": 0
+      },
+      "marginTop": {
+        "desktop": 0,
+        "tablet": 0,
+        "phone": 0
+      },
+      "marginBottom": {
+        "desktop": 0,
+        "tablet": 0,
+        "phone": 0
+      },
+      "colGap": {
+        "desktop": 0,
+        "tablet": 0,
+        "phone": 0
+      },
+      "borderWidth": 0,
+      "colSizing": "auto",
+      "preventHorizontalStretch": false,
+      "horizontalAlign": "left",
+      "preserveLayoutOnMobile": false
+    },
+    "children": [
+      "flex-layout.col#info-card-list-container"
+    ]
+  },
+  "flex-layout.col#info-card-list-container": {
+    "children": [
+      "rich-text#info-card-list-title",
+      "list-context.info-card-list#infocard-list-home"
+    ],
+    "title": "Container da Lista de Info Cards"
+  },
+  "rich-text#info-card-list-title": {
+    "props": {
+      "text": "Componente teste"
+    }
+  },
+  "list-context.info-card-list#infocard-list-home": {
+    "title": "Lista de Info Cards",
+    "children": [
+      "slider-layout#slider-infocard"
+    ],
+    "props": {
+      "infoCards": [
+        {
+          "subhead": "Nome da categoria",
+          "textAlignment": "center",
+          "textMode": "rich-text",
+          "imageUrl": "https://cdn.pixabay.com/photo/2024/02/26/19/39/monochrome-image-8598798_960_720.jpg",
+          "isFullModeStyle": false,
+          "textPosition": "center",
+          "callToActionText": "Ir para a categoria"
+        },
+        {
+          "subhead": "Nome da categoria",
+          "textAlignment": "center",
+          "textMode": "rich-text",
+          "imageUrl": "https://cdn.pixabay.com/photo/2024/02/26/19/39/monochrome-image-8598798_960_720.jpg",
+          "isFullModeStyle": false,
+          "textPosition": "center",
+          "callToActionText": "Ir para a categoria"
+        },
+        {
+          "subhead": "Nome da categoria",
+          "textAlignment": "center",
+          "textMode": "rich-text",
+          "imageUrl": "https://cdn.pixabay.com/photo/2024/02/26/19/39/monochrome-image-8598798_960_720.jpg",
+          "isFullModeStyle": false,
+          "textPosition": "center",
+          "callToActionText": "Ir para a categoria"
+        },
+        {
+          "subhead": "Nome da categoria",
+          "textAlignment": "center",
+          "textMode": "rich-text",
+          "imageUrl": "https://cdn.pixabay.com/photo/2024/02/26/19/39/monochrome-image-8598798_960_720.jpg",
+          "isFullModeStyle": false,
+          "textPosition": "center",
+          "callToActionText": "Ir para a categoria"
+        },
+        {
+          "subhead": "Nome da categoria",
+          "textAlignment": "center",
+          "textMode": "rich-text",
+          "imageUrl": "https://cdn.pixabay.com/photo/2024/02/26/19/39/monochrome-image-8598798_960_720.jpg",
+          "isFullModeStyle": false,
+          "textPosition": "center",
+          "callToActionText": "Ir para a categoria"
+        }
+      ]
+    }
+  },
+  "slider-layout#slider-infocard": {
+    "title": "Slider Info Card",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true
+    }
+  }
+}
