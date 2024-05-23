@@ -23,7 +23,7 @@
         "simulationBehavior": "skip"
       }
     }
-  },
+  }, /* VIRGULA FALTANDO FOI ADICIONADA */
   "store.search.product-comparison#department": {
     "blocks": [
       "search-result-layout"
